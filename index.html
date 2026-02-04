@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vogue Essentials | All Clothing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111318] dark:text-white transition-colors duration-200">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-solid border-[#f0f2f4] dark:border-gray-800">
+<div class="max-w-[1440px] mx-auto px-6 py-4 flex items-center justify-between">
+<div class="flex items-center gap-10">
+<div class="flex items-center gap-2">
+<div class="text-primary size-8">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-[#111318] dark:text-white text-xl font-bold tracking-tight">Vogue Essentials</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-[#111318] dark:text-gray-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Men</a>
+<a class="text-[#111318] dark:text-gray-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Women</a>
+<a class="text-[#111318] dark:text-gray-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Kids</a>
+<a class="text-[#111318] dark:text-gray-300 text-sm font-semibold hover:text-primary transition-colors" href="#">New Arrivals</a>
+<a class="text-[#111318] dark:text-gray-300 text-sm font-semibold text-red-500" href="#">Sale</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">search</span>
+<input class="bg-[#f0f2f4] dark:bg-gray-800 border-none rounded-lg pl-10 pr-4 py-2 text-sm w-64 focus:ring-2 focus:ring-primary outline-none" placeholder="Search products..."/>
+</div>
+<button class="p-2 rounded-lg bg-[#f0f2f4] dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700">
+<span class="material-symbols-outlined text-[#111318] dark:text-white">shopping_bag</span>
+</button>
+<button class="p-2 rounded-lg bg-[#f0f2f4] dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700">
+<span class="material-symbols-outlined text-[#111318] dark:text-white">person</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-[1440px] mx-auto px-6 py-6">
+<!-- Breadcrumbs -->
+<div class="flex items-center gap-2 mb-6">
+<a class="text-[#616f89] text-sm font-medium hover:text-primary" href="#">Home</a>
+<span class="text-[#616f89] text-sm">/</span>
+<a class="text-[#616f89] text-sm font-medium hover:text-primary" href="#">Catalog</a>
+<span class="text-[#616f89] text-sm">/</span>
+<span class="text-[#111318] dark:text-white text-sm font-bold">All Clothing</span>
+</div>
+<!-- Page Heading -->
+<div class="mb-8">
+<h1 class="text-[#111318] dark:text-white text-4xl font-extrabold tracking-tight mb-2">All Clothing</h1>
+<p class="text-[#616f89] dark:text-gray-400 text-lg">Discover our curated collection of timeless essentials for every season.</p>
+</div>
+<!-- Chips / Filter Badges -->
+<div class="flex gap-3 mb-8 flex-wrap">
+<button class="flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm font-medium hover:bg-gray-50">
+                Category: All <span class="material-symbols-outlined text-sm">expand_more</span>
+</button>
+<button class="flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-sm font-medium hover:bg-gray-50">
+                Sort By: Newest <span class="material-symbols-outlined text-sm">expand_more</span>
+</button>
+<button class="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-bold border border-primary/20">
+                Summer Collection <span class="material-symbols-outlined text-sm">close</span>
+</button>
+<button class="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-bold border border-primary/20">
+                Linen <span class="material-symbols-outlined text-sm">close</span>
+</button>
+</div>
+<div class="flex flex-col lg:flex-row gap-10">
+<!-- Sidebar Filters -->
+<aside class="w-full lg:w-64 shrink-0">
+<div class="bg-white dark:bg-gray-900 rounded-xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm sticky top-24">
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-lg font-bold">Filters</h3>
+<button class="text-primary text-xs font-bold uppercase tracking-wider">Clear All</button>
+</div>
+<div class="space-y-6">
+<!-- Filter Group -->
+<div>
+<div class="flex items-center gap-2 mb-3 text-sm font-bold text-gray-500 uppercase tracking-widest">
+<span class="material-symbols-outlined text-lg">category</span>
+                                Category
+                            </div>
+<div class="space-y-2">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="rounded text-primary focus:ring-primary h-4 w-4 border-gray-300" type="checkbox"/>
+<span class="text-sm group-hover:text-primary transition-colors">Outerwear</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input checked="" class="rounded text-primary focus:ring-primary h-4 w-4 border-gray-300" type="checkbox"/>
+<span class="text-sm font-medium group-hover:text-primary transition-colors">Tops &amp; T-Shirts</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="rounded text-primary focus:ring-primary h-4 w-4 border-gray-300" type="checkbox"/>
+<span class="text-sm group-hover:text-primary transition-colors">Dresses</span>
+</label>
+</div>
+</div>
+<!-- Price Range -->
+<div>
+<div class="flex items-center gap-2 mb-3 text-sm font-bold text-gray-500 uppercase tracking-widest">
+<span class="material-symbols-outlined text-lg">payments</span>
+                                Price Range
+                            </div>
+<input class="w-full h-1 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary" type="range"/>
+<div class="flex justify-between mt-2 text-xs font-medium text-gray-500">
+<span>$0</span>
+<span>$500+</span>
+</div>
+</div>
+<!-- Size -->
+<div>
+<div class="flex items-center gap-2 mb-3 text-sm font-bold text-gray-500 uppercase tracking-widest">
+<span class="material-symbols-outlined text-lg">straighten</span>
+                                Size
+                            </div>
+<div class="grid grid-cols-3 gap-2">
+<button class="h-10 border border-gray-200 dark:border-gray-700 rounded-lg text-xs font-bold hover:border-primary">XS</button>
+<button class="h-10 border-2 border-primary rounded-lg text-xs font-bold bg-primary/5 text-primary">S</button>
+<button class="h-10 border border-gray-200 dark:border-gray-700 rounded-lg text-xs font-bold hover:border-primary">M</button>
+<button class="h-10 border border-gray-200 dark:border-gray-700 rounded-lg text-xs font-bold hover:border-primary">L</button>
+<button class="h-10 border border-gray-200 dark:border-gray-700 rounded-lg text-xs font-bold hover:border-primary">XL</button>
+<button class="h-10 border border-gray-200 dark:border-gray-700 rounded-lg text-xs font-bold hover:border-primary">XXL</button>
+</div>
+</div>
+<!-- Colors -->
+<div>
+<div class="flex items-center gap-2 mb-3 text-sm font-bold text-gray-500 uppercase tracking-widest">
+<span class="material-symbols-outlined text-lg">palette</span>
+                                Color
+                            </div>
+<div class="flex flex-wrap gap-2">
+<button class="size-6 rounded-full bg-white border border-gray-300 ring-2 ring-offset-2 ring-primary"></button>
+<button class="size-6 rounded-full bg-black border border-gray-300"></button>
+<button class="size-6 rounded-full bg-blue-600 border border-gray-300"></button>
+<button class="size-6 rounded-full bg-beige-200 border border-gray-300" style="background-color: #f5f5dc;"></button>
+<button class="size-6 rounded-full bg-green-700 border border-gray-300"></button>
+</div>
+</div>
+</div>
+<button class="w-full mt-8 bg-primary text-white py-3 rounded-lg font-bold text-sm tracking-wide shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all active:scale-95">
+                        Apply Filters
+                    </button>
+</div>
+</aside>
+<!-- Product Grid -->
+<div class="flex-1">
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-y-10 gap-x-6">
+<!-- Product Card 1 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl bg-gray-100 mb-4">
+<img class="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-110" data-alt="Model wearing a minimalist cream linen shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuOXQh2MBxzgPk78CYLUajsTDPyuzJIFKi3NfzUpmb-CtE0h_PgAj1NP0R2wmKAjJ6xuvygXS-wDNbyf-aacKR3bk4DSbI4j7QcznbCU6aJb17EOBOGvkyoqm5lQr3rF9lLoJAvjRWJkzbtujoUj49uykn7DLdTKrWuulZuKyfa9K4qcu7QnK2qcA7lYutiHj2QfZkhtUb1vRQECB0AzNPoq31l4JqRK7wFbNHPSbhVsHPBFtl-FBw5VC9ji5RmtONsQCOVsVoWQk"/>
+<button class="absolute top-3 right-3 p-2 bg-white/80 backdrop-blur rounded-full text-gray-900 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-xl">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 bg-white/90 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-sm">New</div>
+</div>
+<p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-1">Essential Co.</p>
+<h3 class="text-base font-medium text-[#111318] dark:text-white mb-1">Premium Linen Overshirt</h3>
+<p class="text-base font-bold text-primary">$89.00</p>
+</div>
+<!-- Product Card 2 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl bg-gray-100 mb-4">
+<img class="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-110" data-alt="Classic tailored dark navy cotton trousers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA17FIlc94p8o0SLR7LTHmjJdQjXf0OsFSbFmKay8wav-v4UQSNhKqqZk6eWLvhpRkVx3mfo8gDYLN-1ntdhC7NzjTreLezDAykCcfBoYC992VisqmnFkfyM4gu61EAhsW-vsTC2pYvfVq6PFmcnhO2qxqt5VMl6yIkFt6-3uiMxcpmOzhWwCaLdp5GcznjSstrHaF3oEU0V3796XvzvOny4nyxtjBFBEsPyqLM-g5wiHoffyiFoiVP32hjOdbNpuR8uxGeBV9YPWs"/>
+<button class="absolute top-3 right-3 p-2 bg-white/80 backdrop-blur rounded-full text-gray-900 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-xl">favorite</span>
+</button>
+</div>
+<p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-1">Modern Tailor</p>
+<h3 class="text-base font-medium text-[#111318] dark:text-white mb-1">Relaxed Tapered Chinos</h3>
+<p class="text-base font-bold text-primary">$110.00</p>
+</div>
+<!-- Product Card 3 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl bg-gray-100 mb-4">
+<img class="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-110" data-alt="Oversized white organic cotton t-shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCn1wfKGyuAHnt9cUA-ofYEMAetnZFKcnKM4Pw0CsEtjBOAvmmZ8UmZnq6XSL-_8DBrCgDmpGyhR1m8HgwCXax5ZRACI0n2-Y5l4ZHd75-1LyATQoZ6mnhj8QJhbU6YbsCMj07JPgAhFWLpQfykc3ZSBvspzxvLhsiF4YZZby-WOc4H6tKGbygXFp_3gQgaH0KPnBWX2ePGyxbwSmT5YZBZ8LMDcVmAZVbstq4NkiNsw1KhEHi-U9oB55cOKlR8ITjACRQSfUAfFrQ"/>
+<button class="absolute top-3 right-3 p-2 bg-white/80 backdrop-blur rounded-full text-gray-900 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-xl">favorite</span>
+</button>
+<div class="absolute bottom-3 left-3 bg-red-500 text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-sm">Sale -20%</div>
+</div>
+<p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-1">Daily Wear</p>
+<h3 class="text-base font-medium text-[#111318] dark:text-white mb-1">Organic Cotton Boxy Tee</h3>
+<div class="flex items-center gap-2">
+<p class="text-base font-bold text-primary">$32.00</p>
+<p class="text-sm text-gray-400 line-through">$40.00</p>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl bg-gray-100 mb-4">
+<img class="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-110" data-alt="Lightweight beige summer blazer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCdmB-1xQVntKIsj2GnsB-c9QAJ20jgTmM-aZ15kkHPAN7oWA4fFVD0frqkoehqXU_yo5z_HTCP_dHxju578Y-GYb0soBE2PKpe5xa09m7CUAqGj-lWPhBVjMg94cxe9Q60p3_orGL4BOHn2MUbhYa-9pXlM3Fd6OD0LwxvAY0LAdqUFwNIRswvOVBwKOgx4iQQOxhcui4FRzNltDCzh2OKrnm8XioAwZeSBXJ7AycbIrlDd06tEkb8dc-XizjCnPkmu99F6FiQ-I"/>
+<button class="absolute top-3 right-3 p-2 bg-white/80 backdrop-blur rounded-full text-gray-900 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-xl">favorite</span>
+</button>
+</div>
+<p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-1">Vogue Luxe</p>
+<h3 class="text-base font-medium text-[#111318] dark:text-white mb-1">Unstructured Summer Blazer</h3>
+<p class="text-base font-bold text-primary">$245.00</p>
+</div>
+<!-- Product Card 5 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl bg-gray-100 mb-4">
+<img class="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-110" data-alt="Classic black leather chelsea boots" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKaBw9brsl7yTBQGIOWga3bealYv0hDwUzSoZ7il2Mw7xJ5fr5l60qEYJRPLFIUExhbA4sdW2r54yHlY7Se-TwP5PNI0E8xn5iylWb-3fp9XyiOLprKYMOvxTODoXdlfrXUp430qI0nMNm-1_vJtD5cozIOqkuuF8O34DDR8nO7iNQrQqYBvemd8DKKkFQ7p7oRppsifkoOuIsHTt_LQSuTiMQ6upZajYUAvI66mVlAmj3FcytXarzslxXE3vitPKWiMhF4TEwG_0"/>
+<button class="absolute top-3 right-3 p-2 bg-white/80 backdrop-blur rounded-full text-gray-900 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-xl">favorite</span>
+</button>
+</div>
+<p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-1">Footwear Co.</p>
+<h3 class="text-base font-medium text-[#111318] dark:text-white mb-1">Minimalist Chelsea Boots</h3>
+<p class="text-base font-bold text-primary">$180.00</p>
+</div>
+<!-- Product Card 6 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[3/4] overflow-hidden rounded-xl bg-gray-100 mb-4">
+<img class="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-110" data-alt="Sage green knit sweater" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAreE3852WR-3ocqN2oSVJfAcitWVZ0E9nbDX5khUu7TOvejJk9Yljw9GPp1vCJRTwQGC6bwAIB4lyYpBSwTYjMPNrOLRmoMxy9_HdoImyRZVDoXj0Y0vKfbre1WopIhJdDxNLMr16rl-epfqKzxntZznjRuhOyi6rjBISZeuUT8ntsc15Seg5i5Mp5-p1NGAEshMMHN0Jw_QreRDhAem6sKu1ctGa6wci111HAxzyODGa1w5LPl2DCYv2D8HcApTtTAVlhpijV1aA"/>
+<button class="absolute top-3 right-3 p-2 bg-white/80 backdrop-blur rounded-full text-gray-900 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-xl">favorite</span>
+</button>
+</div>
+<p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-1">Soft Knit</p>
+<h3 class="text-base font-medium text-[#111318] dark:text-white mb-1">Lightweight Merino Sweater</h3>
+<p class="text-base font-bold text-primary">$95.00</p>
+</div>
+</div>
+<!-- Pagination -->
+<div class="mt-16 flex items-center justify-center gap-2">
+<button class="size-10 flex items-center justify-center rounded-lg border border-gray-200 dark:border-gray-800 hover:bg-gray-50">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="size-10 flex items-center justify-center rounded-lg bg-primary text-white font-bold">1</button>
+<button class="size-10 flex items-center justify-center rounded-lg border border-transparent hover:bg-gray-50">2</button>
+<button class="size-10 flex items-center justify-center rounded-lg border border-transparent hover:bg-gray-50">3</button>
+<span class="px-2">...</span>
+<button class="size-10 flex items-center justify-center rounded-lg border border-transparent hover:bg-gray-50">12</button>
+<button class="size-10 flex items-center justify-center rounded-lg border border-gray-200 dark:border-gray-800 hover:bg-gray-50">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer Space -->
+<footer class="mt-20 py-12 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-background-dark">
+<div class="max-w-[1440px] mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-10">
+<div>
+<h4 class="font-bold mb-4 uppercase text-xs tracking-widest">Shop</h4>
+<ul class="space-y-2 text-sm text-gray-500">
+<li><a class="hover:text-primary" href="#">Men's Collection</a></li>
+<li><a class="hover:text-primary" href="#">Women's Collection</a></li>
+<li><a class="hover:text-primary" href="#">Kids Essentials</a></li>
+<li><a class="hover:text-primary" href="#">Sale Items</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-4 uppercase text-xs tracking-widest">Support</h4>
+<ul class="space-y-2 text-sm text-gray-500">
+<li><a class="hover:text-primary" href="#">Shipping Info</a></li>
+<li><a class="hover:text-primary" href="#">Returns &amp; Exchanges</a></li>
+<li><a class="hover:text-primary" href="#">Contact Us</a></li>
+<li><a class="hover:text-primary" href="#">FAQs</a></li>
+</ul>
+</div>
+<div class="col-span-2">
+<h4 class="font-bold mb-4 uppercase text-xs tracking-widest">Join our Newsletter</h4>
+<p class="text-sm text-gray-500 mb-4">Get early access to drops and exclusive offers.</p>
+<div class="flex gap-2 max-w-md">
+<input class="flex-1 rounded-lg border-gray-300 dark:bg-gray-800 dark:border-gray-700 focus:ring-primary focus:border-primary text-sm" placeholder="Email address" type="email"/>
+<button class="bg-primary text-white px-6 py-2 rounded-lg font-bold text-sm">Subscribe</button>
+</div>
+</div>
+</div>
+<div class="max-w-[1440px] mx-auto px-6 mt-12 pt-8 border-t border-gray-100 dark:border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4">
+<p class="text-xs text-gray-400">© 2024 Vogue Essentials. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-gray-400 hover:text-primary" href="#"><span class="material-symbols-outlined text-xl">language</span></a>
+<a class="text-gray-400 hover:text-primary" href="#"><span class="material-symbols-outlined text-xl">share</span></a>
+</div>
+</div>
+</footer>
+</body></html>
